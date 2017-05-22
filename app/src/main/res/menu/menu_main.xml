@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ufs.br.menus.MainActivity">
+    <item
+        android:id="@+id/sobre"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        android:icon="@drawable/ic_sobre"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/curtir"
+        android:orderInCategory="200"
+        android:title="Curtir"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/compartilhar"
+        android:orderInCategory="300"
+        android:title="Compartilhar"
+        app:showAsAction="never" />
+</menu>
